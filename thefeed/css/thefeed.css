@@ -24,6 +24,16 @@ header {
         0 0 0 30px #73BDA8;  
     }
     
+    img {
+        border: 6px solid #6F5643;
+        border-radius: 8px; 
+        /* Keeps the rounded corners */
+    }
+    img:hover {
+    transform: scale(1.07); /* Makes the image 5% bigger */
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
     
     
 
