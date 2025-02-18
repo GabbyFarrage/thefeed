@@ -1,0 +1,105 @@
+/* Global Styles for the Feed Page */
+body {
+    background-color: #ECE6C2; 
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #CC6B49; 
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "Chango", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 30px; /* Adds space around the header */
+    border-radius: 15px; /* Rounds the edges */
+
+    border: 3px solid #8B4513; /* Primary border */
+    box-shadow: 
+        0 0 0 10px #6F5643, 
+        0 0 0 20px #D2A24C,  
+        0 0 0 30px #73BDA8;  
+    }
+    
+    
+    
+
+
+h1 {
+    font-size: 32px;
+    color: #ECE6C2;
+    margin: 0;
+}
+nav {
+    text-align: left;
+    padding-left: 20px; /* Adds spacing from the left edge */
+}
+
+nav a{
+    text-decoration: none;
+    color: #ECE6C2;
+    text-align: left;
+
+}
+
+/* nav a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2e8b57; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    background-color: #3cb371;
+} */
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.feed-entry {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+figcaption {
+    font-size: 20px;
+    color: #6F5643;
+    margin-top: 10px;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+  font-style: normal;
+}
+
+h2 {
+    color: #CC6B49;
+    font-size: 25.6px;
+    margin-bottom: 10px;
+    font-family: "Quattrocento", serif;
+    font-weight: 700;        
+    font-style: normal;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b0e0e6; 
+}
+
+

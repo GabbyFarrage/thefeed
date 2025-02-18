@@ -1,0 +1,38 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ede8d0; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #CC6B49;
+    font-family: "Chango", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Footer */
+
+a {
+    text-decoration: none; 
+      
+}
+
+img{
+  width: 400px; 
+  height: auto;
+}
+ 
+
+
+
