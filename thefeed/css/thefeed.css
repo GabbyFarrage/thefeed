@@ -8,12 +8,6 @@ html, body {
 }
 
 /* Gradient Background that Changes on Scroll */
-body {
-    background: linear-gradient(to bottom, #ECE6C2, #CC6B49, #73BDA8, #D2A24C, #6F5643);
-    background-attachment: fixed; /* Keeps the background in place while scrolling */
-    background-size: 100% 100%; /* Ensures gradient covers the full page */
-    transition: background 0.3s ease-in-out;
-}
 
 /* Home Button */
 nav {
