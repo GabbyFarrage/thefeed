@@ -1,115 +1,109 @@
-/* Global Styles for the Feed Page */
-body {
-    background-color: #ECE6C2; 
-
+/* Global Styles */
+html, body {
+    height: 100%;
+    background-color: #ede8d0;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
-header {
-    background-color: #CC6B49; 
-    padding: 10px;
-    padding-bottom: 30px;
-    text-align: center;
+/* Home button outside the header */
+nav {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8B4513;
     font-family: "Chango", serif;
     font-weight: 400;
     font-style: normal;
-    margin: 30px; /* Adds space around the header */
-    border-radius: 15px; /* Rounds the edges */
-
-    border: 3px solid #8B4513; /* Primary border */
-    box-shadow: 
-        0 0 0 10px #6F5643, 
-        0 0 0 20px #D2A24C,  
-        0 0 0 30px #73BDA8;  
-    }
-    
-    img {
-        border: 6px solid #6F5643;
-        border-radius: 8px; 
-        /* Keeps the rounded corners */
-    }
-    img:hover {
-    transform: scale(1.07); /* Makes the image 5% bigger */
-    transition: transform 0.2s ease-in-out; /* Smooth transition */
 }
 
-    
-    
+/* Header */
+header {
+    background-color: #CC6B49;
+    padding: 20px;
+    text-align: center;
+    font-family: "Chango", serif;
+    font-weight: 400;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 3px solid #8B4513;
+    box-shadow: 0 0 0 10px #6F5643, 0 0 0 20px #D2A24C, 0 0 0 30px #73BDA8;
+    max-width: 600px;
+}
 
-
+/* Header Title Styling */
 h1 {
     font-size: 32px;
-    color: #ECE6C2;
+    color: #ede8d0;
     margin: 0;
 }
-nav {
-    text-align: left;
-    padding-left: 20px; /* Adds spacing from the left edge */
-}
 
-nav a{
-    text-decoration: none;
-    color: #ECE6C2;
-    text-align: left;
-
-}
-
-/* nav a {
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #2e8b57; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1.1em;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-nav a:hover {
-    background-color: #3cb371;
-} */
-
-main {
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
+/* Feed Entry Layout */
 .feed-entry {
+    display: flex;
+    align-items: center; /* Vertically aligns the image and h2 */
+    justify-content: flex-start; /* Aligns the image and title next to each other */
+    gap: 20px; /* Adds space between image and title */
     margin-bottom: 30px;
-    text-align: center;
+    position: relative;
 }
 
-img {
-    max-width: 100%;
+/* Image Styling */
+.feed-entry img {
+    width: 200px;
     height: auto;
     border-radius: 8px;
-    
+    border: 5px solid #6F5643;
+    transition: transform 0.3s ease-in-out;
 }
 
-figcaption {
-    font-size: 20px;
-    color: #6F5643;
-    margin-top: 10px;
-    font-family: "Kanit", serif;
-    font-weight: 500;
-  font-style: normal;
+/* Hover effect on the image */
+.feed-entry img:hover {
+    transform: scale(1.07);
 }
 
+/* Title (h2) Styling */
 h2 {
     color: #CC6B49;
     font-size: 25.6px;
-    margin-bottom: 10px;
-    font-family: "Quattrocento", serif;
-    font-weight: 700;        
-    font-style: normal;
+    font-family: "Chango", serif; /* Use Chango font */
+    font-weight: 700;
+    margin: 0;
+    text-align: left; /* Aligns the h2 to the left */
+    display:inline-block; /* Ensure that h2 behaves like a block element */
+    line-height:1.4; 
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #b0e0e6; 
+.text-content {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    max-width: 300px;
+    text-align: left;
 }
 
+/* Show text on hover */
+.feed-entry:hover .text-content {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Text Styling */
+figcaption {
+    font-size: 16px;
+    color: #6F5643;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* Add margin-top to the first feed entry */
+.feed-entry:first-of-type {
+    margin-top: 50px; /* Adds space between the first image and the header */
+}
 
