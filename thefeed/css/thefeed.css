@@ -7,7 +7,6 @@ html, body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Gradient Background that Changes on Scroll */
 
 /* Home Button */
 nav {
@@ -35,10 +34,12 @@ header {
     border: 3px solid #8B4513;
     box-shadow: 0 0 0 10px #6F5643, 0 0 0 20px #D2A24C, 0 0 0 30px #73BDA8;
     max-width: 600px;
+    display: flex;justify-content: center; /* Centers horizontally */    align-items: center; /* Centers vertically */    
+    height: 100px; /* Makes header full viewport height */
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 40px;
     color: #ede8d0;
     margin: 0;
 }
