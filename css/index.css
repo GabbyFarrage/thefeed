@@ -10,6 +10,10 @@ header {
     text-align: center;
 }
 
+header a{
+    text-decoration: none;
+}
+
 h1 {
     margin: 0;
     font-size: 30px;
@@ -27,7 +31,7 @@ header img {
 }
 
 header img:hover {
-    transform: scale(1.1); /* Makes the GIF grow by 10% */
+    transform: scale(1.2); /* Makes the GIF grow by 10% */
 }
 
 /* Footer */

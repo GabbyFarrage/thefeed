@@ -5,13 +5,10 @@ html, body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: #ece6c2;
 }
-
 
 /* Header */
-header a{
-    text-decoration: none;
-}
 header {
     background-color: #CC6B49;
     padding: 20px;
@@ -29,10 +26,20 @@ header {
     height: 100px; /* Adjust header height */
 }
 
+header a {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 40px;
     color: #ede8d0;
     margin: 0;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+/* Grow the header text on hover */
+header h1:hover {
+    transform: scale(1.3); /* Increases the size of the text */
 }
 
 /* Feed Entry Layout */
@@ -106,7 +113,7 @@ figcaption {
 .feed-entry:nth-of-type(1) video { border-color: #6F5643; }  
 .feed-entry:nth-of-type(2) img, 
 .feed-entry:nth-of-type(2) video { border-color: #CC6B49; }  
-feed-entry:nth-of-type(3) img, 
+.feed-entry:nth-of-type(3) img, 
 .feed-entry:nth-of-type(3) video { border-color: #D2A24C; }  
 .feed-entry:nth-of-type(4) img, 
 .feed-entry:nth-of-type(4) video { border-color: #73BDA8; } 
@@ -126,6 +133,8 @@ feed-entry:nth-of-type(3) img,
 .feed-entry:nth-of-type(11) video { border-color: #D2A24C; }
 .feed-entry:nth-of-type(12) img, 
 .feed-entry:nth-of-type(12) video { border-color: #73BDA8; }
+
+
 
 
 
