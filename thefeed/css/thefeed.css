@@ -133,6 +133,34 @@ figcaption {
 .feed-entry:nth-of-type(12) video { border-color: #73BDA8; }
 
 
+.right-flexbox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px; /* Adjust as needed */
+  height: 100vh; /* Full height */
+  background-color: white;
+  padding: 10px;
+  border-left: 2px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -3px 0 5px rgba(0, 0, 0, 0.1); /* Optional, just for a subtle edge */
+}
+
+.gif {
+  width: 100%; /* Make the GIF fill the width of the box */
+  height: auto; /* Keep proportions */
+  margin-bottom: 10px;
+}
+
+.description {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
 
 
 
