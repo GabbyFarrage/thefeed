@@ -15,6 +15,7 @@ header {
     font-family: "Chango", serif;
     font-weight: 400;
     margin: 30px auto;
+    margin-top: 50px;
     border-top: 70px;
     border-radius: 15px;
     border: 3px solid #8B4513;
@@ -177,6 +178,35 @@ figcaption {
     color: #6F5643; 
 }
 
+.right-box {
+    background-color: #ece6c2;
+    padding: 15px; /* Reduce padding to shrink height */
+    margin: 20px;
+    margin-top: 180px;
+    border-radius: 15px;
+    border: 2px solid #8B4513;
+    box-shadow: 0 0 0 5px #6F5643, 0 0 0 10px #D2A24C, 0 0 0 15px #73BDA8;
+    max-width: 350px;
+    max-height: 300px;
+  }
+
+
+  /* messing around with gifs in header*/
+  .header-gif {
+    width: 175px; /* Adjust size */
+    height: auto;
+    position: absolute;
+}
+
+.gif-left {
+    
+    
+    
+}
+
+.gif-right {
+    
+}
 
 
 
