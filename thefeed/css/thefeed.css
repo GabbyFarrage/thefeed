@@ -133,7 +133,7 @@ figcaption {
     margin-top: 70px; 
 }
 
-/* Assign Different Border Colors to Each Image & Video */
+/* Different Border Colors for Image & Video */
 .feed-entry:nth-of-type(1) img, 
 .feed-entry:nth-of-type(1) video { border-color: #6F5643; }  
 .feed-entry:nth-of-type(2) img, 
@@ -163,18 +163,18 @@ figcaption {
 .container {
     position: fixed; /* Keeps it on the right while scrolling */
     top: 3px;
-    right: 30px; /* Moves it to the right side */
-    width: 300px; /* Adjust as needed */
-    height: 100vh; /* Full height */
-    padding: 20px; /* Adds space inside */
+    right: 30px; 
+    width: 300px; 
+    height: 100vh; 
+    padding: 20px; 
     margin-right: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     font-family: "Kanit", serif;
     font-weight: 500;
-    font-style: normal; /* <--- Missing semicolon added */
-    color: #6F5643; /* <--- Now this will apply correctly */
+    font-style: normal; 
+    color: #6F5643; 
 }
 
 
