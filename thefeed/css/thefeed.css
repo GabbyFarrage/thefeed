@@ -7,6 +7,7 @@ html, body {
     background-color: #ece6c2;
 }
 
+
 header {
     background-color: #CC6B49;
     padding: 20px;
@@ -32,12 +33,12 @@ h1 {
     font-size: 40px;
     color: #ede8d0;
     margin: 0;
-    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+    transition: transform 0.3s ease-in-out; 
 }
 
-/* Grow the header text on hover */
+/* Increases the size of the text */
 header h1:hover {
-    transform: scale(1.3); /* Increases the size of the text */
+    transform: scale(1.3); 
 }
 
 /* Feed Entry Layout */
@@ -49,6 +50,31 @@ header h1:hover {
     margin-bottom: 30px;
     position: relative;
 }
+
+
+/* testing out reght side text*/
+.container {
+    display: flex; 
+    align-items: flex-start; 
+    padding: 20px;
+}
+
+/* Style main content (left side) */
+main {
+    flex: 1; /* Allows it to take up available space */
+    padding-right: 100px; /* Adds spacing from the sidebar */
+}
+
+/* Style the right-side paragraph box */
+.right-box {
+    width: 250px; /* Set a fixed width */
+    padding: 15px;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: normal
+}
+
+
 
 /* Image & Video Styling */
 .feed-entry img,
@@ -133,31 +159,24 @@ figcaption {
 .feed-entry:nth-of-type(12) video { border-color: #73BDA8; }
 
 
-.right-flexbox {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 250px; /* Adjust as needed */
-  height: 100vh; /* Full height */
-  background-color: white;
-  padding: 10px;
-  border-left: 2px solid #ccc;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: -3px 0 5px rgba(0, 0, 0, 0.1); /* Optional, just for a subtle edge */
-}
+.container {
+    position: fixed; /* Keeps it on the right while scrolling */
+    top:3px;
+    right: 30px; /* Moves it to the right side */
+    width: 300px; /* Adjust as needed */
+    height: 100vh; /* Full height */
+    padding: 20px; /* Adds space inside */
+    margin-right: 10px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: normal
+    
+  }
+  
 
-.gif {
-  width: 100%; /* Make the GIF fill the width of the box */
-  height: auto; /* Keep proportions */
-  margin-bottom: 10px;
-}
-
-.description {
-  text-align: center;
-  font-size: 14px;
-}
 
 
 
