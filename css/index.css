@@ -25,6 +25,7 @@ h1 {
 
 /* Hover effect for GIF */
 header img {
+    margin-top:60px ;
     width: 400px; 
     height: auto;
     transition: transform 0.3s ease-in-out; /* Smooth transition */
