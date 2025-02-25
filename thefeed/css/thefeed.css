@@ -111,11 +111,6 @@ h2 {
     text-align: left;
 }
 
-.feed-entry:hover .text-content {
-    opacity: 1;
-    transform: translateX(0);
-}
-
 /* Figcaption Styling */
 figcaption {
     font-size: 16px;
