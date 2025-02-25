@@ -36,7 +36,7 @@ h1 {
     transition: transform 0.3s ease-in-out; 
 }
 
-/* Increases the size of the text */
+/* testinig increasing size of the text */
 header h1:hover {
     transform: scale(1.5); 
 }
@@ -81,12 +81,13 @@ main {
     border: 10px solid #6F5643; 
     transition: transform 0.3s ease-in-out;
     margin-left: 70px;
+    margin-bottom: 50px;
 }
 
-/* Hover Effect */
+/* Hover effect for img and video*/
 .feed-entry img:hover,
 .feed-entry video:hover {
-    transform: scale(1.07);
+    transform: scale(1.2);
 }
 
 h2 {
@@ -104,16 +105,15 @@ h2 {
 .text-content {
     max-width: 300px;
     text-align: left;
-}
-
-/* Figcaption Styling */
-figcaption {
     font-size: 16px;
     color: #6F5643;
     font-family: "Kanit", serif;
     font-weight: 500;
     margin-top: 5px;
 }
+
+ 
+
 
 /* Adds Space Below Header */
 .feed-entry:first-of-type {
@@ -154,8 +154,8 @@ figcaption {
     width: 300px; 
     height: 100vh; 
     padding: 20px; 
-    margin-right: 40px;
-    margin-top: 100px;
+    margin-right: 62px;
+    margin-top: 82px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
@@ -169,9 +169,8 @@ figcaption {
 .right-box {
     background-color: #ece6c2;
     padding: 15px; 
-    margin: 20px;
-    margin-top: 150px;
-    margin-bottom: 70px;
+    margin: 10px;
+    margin-bottom: 50px;
     border-radius: 15px;
     box-shadow: 0 0 0 10px #6F5643, 0 0 0 20px #D2A24C, 0 0 0 30px #73BDA8;
     max-width: 350px;
